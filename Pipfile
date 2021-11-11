@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+ipython = "*"
+requests = "*"
+web3 = "*"
+jupyterlab = "*"
+gunicorn = "*"
+cairosvg = "*"
+djangorestframework = "*"
+mysqlclient = "*"
+django-q = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
