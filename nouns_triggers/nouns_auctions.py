@@ -52,6 +52,7 @@ def get_current_auction() -> CurrentAuction:
                     }
                     """)
     current_auction, previous_auction = subgraph_response['auctions'][0], subgraph_response['auctions'][1]
+    logging.debug(f"Subgraph response: {subgraph_response}")
     auction = build_current_auction_object(current_auction)
     auction['previous_auction'] = create_previous_auction_obj(previous_auction)
 
