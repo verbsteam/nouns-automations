@@ -63,7 +63,10 @@ def get_current_auction() -> CurrentAuction:
 
 def build_current_auction_object(auction_data_from_graph: dict) -> CurrentAuction:
     treasury_balance_wei = get_treasury_balance_wei()
-    bidder_address = auction_data_from_graph.get('bidder', {}).get('id')
+
+    # bidder can be None if no bids have been placed yet
+    bidder_obj = auction_data_from_graph.get('bidder')
+    bidder_address = bidder_obj['id'] if bidder_obj else None
     auction = CurrentAuction(
         bidder=bidder_address,
         bidder_name=get_ens_name(bidder_address) if bidder_address else None,
