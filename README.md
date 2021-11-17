@@ -1,6 +1,6 @@
 # nouns-automations
 Nouns automations is a project built for [NounsDAO](https://nouns.wtf/) to allow building automations using Zapier and Integromat.
-This repo hosts the server side that serves the data to Zapier & Integromat.
+This repo hosts the server side that serves the data to Zapier & Integromat. Visit our public [Notion page](https://verbs.notion.site/Nouns-Automations-using-Integromat-Zapier-7f3af840dc1d4a04b1d728f978c785b0) for more context. 
 
 # How to contribute
 Feel free to open issues/pull requests.
@@ -8,6 +8,10 @@ Feel free to open issues/pull requests.
 # Using the automations
 * Zapier: https://zapier.com/developer/public-invite/145904/8a8e34e04debec63de5fef1526fe3879/
 * Integromat: https://www.integromat.com/en/apps/invite/6b5f6756542eb1dc5aac97ff95cf2e68
+
+# Live implementations
+* [Nouns Google Calendar](https://verbs.notion.site/Nouns-Google-Calendar-c8314d548aed4aa1b841cb868b9ea0a8)
+* [NounsCalendar Twitter Bot](https://verbs.notion.site/NounsCalendar-Twitter-Bot-5821b01f5df24e91bf9dbace931ecd8c)
 
 # Running locally
 1. Clone the repo
